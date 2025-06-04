@@ -7,3 +7,4 @@ function menuHamb() {
         ull.style.display = 'none'    
     }
 }
+

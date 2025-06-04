@@ -61,7 +61,6 @@ li:hover {
 
 header {
     padding: 3rem;
-    /* height: 27rem; */
     background-image: url(../imagens/ambiente_6.jpg);
     background-color: #6f1a07;
     background-position: center bottom;
@@ -191,7 +190,7 @@ header > p {
     margin: 2rem 6rem;
     padding: 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(3, 165px);
     gap: 20px;
     justify-content: center;
@@ -222,7 +221,7 @@ header > p {
 #container2 {
     margin: 1.8rem;
     display: grid;
-    grid-template-columns: repeat(4, 250px);
+    grid-template-columns: repeat(auto-fit, 250px);
     grid-template-rows: repeat(2, 375px);
     gap: 2rem;
     justify-content: center;

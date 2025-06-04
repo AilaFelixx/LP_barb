@@ -36,7 +36,6 @@
 
     #container {
         margin: 1rem;
-        grid-template-columns: repeat(3, 300px);
     }
 
 /* ///////////////////////////////////////////////////// */
@@ -57,7 +56,6 @@
 
     #container2 {
         margin: 1.8rem;
-        grid-template-columns: repeat(3, 250px);
         gap: 2rem;
     }
 
@@ -97,7 +95,6 @@
 
     #container {
         margin: 1rem;
-        grid-template-columns: repeat(2, 300px);
     }
 
 /* ///////////////////////////////////////////////////// */
@@ -118,7 +115,6 @@
 
     #container2 {
         margin: 1.8rem;
-        grid-template-columns: repeat(2, 250px);
         gap: 2rem;
     }
 
@@ -225,7 +221,6 @@
 
     #container {
         margin: 1rem;
-        grid-template-columns: 300px;
     }
 
 /* ///////////////////////////////////////////////////// */
@@ -246,7 +241,6 @@
 
     #container2 {
         margin: 1.8rem;
-        grid-template-columns: 250px;
         gap: 2rem;
     }
 
@@ -270,6 +264,4 @@
     label {
         padding-left: 1rem;
     }
-
-
 }
